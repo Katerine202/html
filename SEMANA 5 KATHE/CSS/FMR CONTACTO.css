@@ -1,0 +1,87 @@
+body{
+    background-color:green;}
+header{
+    background-color: green !important;
+    border: 2px solid blue;
+    border-radius: 20px;
+    /* configuracion de display flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    }
+    header img{
+        padding: 20px;
+    }  
+    nav{
+        background-color: aquamarine;
+        border: 2px solid greenyellow;
+        border-radius: 20px;
+     /* configuracion de display flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    }  
+    section{
+        width: 40%;
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 10px auto;
+        background: linear-gradient(rgb(127, 233, 123),rgb(139, 202, 228));
+    }
+    form{
+        background-color: aquamarine;
+        width: 70%;
+        border-radius: 20px;
+        margin: 10px auto;
+        box-shadow: outset 0 0 10px purple;
+    }
+    fieldset{
+        border-style: none;
+    }
+    label{
+        font-size: 10px;
+    }
+    textarea{
+        resize: both;
+        max-height: 100px;
+    }
+    /*Pseudoclase focus: al dar clic en boton */
+    input:focus, textarea:focus{
+        border-color: blue;
+        cursor: pointer;
+        box-shadow: outset 0 0 10px rgb(0, 29, 255, 0.6);
+        outline:0 none;
+    }
+    form button{
+        width: 40%;
+        margin: 15px;
+        height: 40px;
+        background: radial-gradient(aquamarine,green);
+        color: brown;
+        border-radius: 15px;
+    }
+    form input{
+        height: 20px;
+        box-sizing: border-box;
+        color: black;
+        outline: none;
+    }
+/*Pseudoclase hover: al pasar mouse por encima del control*/
+form button:hover{
+    background: aquamarine;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
